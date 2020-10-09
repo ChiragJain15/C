@@ -3,8 +3,14 @@
 
 int main()
 {   
-    float b;
-    scanf("%f", &b);
-    int a = round(b);
-    printf("%d",a);
+    long long int b;
+    scanf("%lld", &b);
+    char* a;
+    if (b / 1000000000000000 == 4)
+        a = "AMEX";
+    else
+        a = "invalid";
+    puts(a);
+    printf("%lld \n", b);
 }
+
