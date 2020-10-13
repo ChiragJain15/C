@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 //function prototypes
-int insertionSort(int a[],int n);
+int selectionSort(int a[],int n);
 
 //function definitions
-int insertionSort(int a[], int n)
+int selectionSort(int a[], int n)
 {
     int min, pos, temp;
     for (int i = 0; i < n; i++)
@@ -37,7 +37,7 @@ int main()
     for (int i = 0; i < n; i++)
         scanf("%d", &a[i]);
     //implementing insertion sort function    
-    insertionSort(a, n); 
+    selectionSort(a, n); 
     for (int i = 0; i < n; i++)
         printf("%d ",a[i]);    
     return 0;
