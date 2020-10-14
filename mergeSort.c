@@ -57,7 +57,7 @@ void mergeSort(int a[], int first, int last)
 
 int main()
 {
-    int  n, ele;
+    int  n;
     printf("Enter the number of elements \n");
     scanf("%d", &n);
     int a[n];
