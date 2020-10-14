@@ -36,7 +36,7 @@ int printMenu()
     printf("Enter 4 for rectangle \n");
     scanf("%d", &opt);
     return opt;
-
+    
 }
 
 //function to calculate the area for a triangle
