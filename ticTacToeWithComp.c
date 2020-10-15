@@ -8,10 +8,6 @@ void draw(char a[]);
 bool isOver(char a[],int winner);
 void computer(int a[]);
 
-void computer(int a[])
-{
-
-}
 
 bool isOver(char a[],int winner)
 {
