@@ -13,8 +13,7 @@ int roll()
     int dice;
     dice = rand() % 6 + 1;
     printf("enter R to roll the dice\n");
-    scanf("\n");
-    scanf("%c", &character);
+    scanf("\n%c", &character);
     printf("DICE ROLLING\n\t\t");
     sleep(1);
     printf("You rolled a %d\n",dice);

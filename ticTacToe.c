@@ -1,10 +1,8 @@
 #include <stdio.h>
-//#include <conio.h>
 #include <stdbool.h>
 
 void draw(char a[]);
 bool isOver(char a[],int winner);
-
 
 bool isOver(char a[],int winner)
 {
@@ -85,7 +83,7 @@ int main(void)
         scanf("%d", &choice);
         printf("\n\n");
         a[choice] = 'O';
-        draw(a);
+
         if(isOver(a, 2))
             return 0;
     }
